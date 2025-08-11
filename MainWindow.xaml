@@ -1,12 +1,17 @@
-﻿<Window x:Class="AuraLyrics.MainWindow"
+<Window x:Class="AuraLyrics.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AuraLyrics"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Aura Lyrics" Height="350" Width="500">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock x:Name="WelcomeMessage" Text="Welcome to Aura Lyrics!" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <TextBlock x:Name="SongTitle" Text="" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <Button x:Name="AuthorizeButton" Content="Authorize with Spotify" Width="200" Height="40" Margin="5" Click="AuthorizeButton_Click"/>
+            <Button x:Name="ToggleOverlayButton" Content="Toggle Overlay" Width="200" Height="40" Margin="5" Click="ToggleOverlayButton_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

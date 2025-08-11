@@ -1,23 +1,22 @@
-﻿using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
-namespace AuraLyrics;
-
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
-public partial class MainWindow : Window
+namespace AuraLyrics
 {
-    public MainWindow()
+    public partial class MainWindow : Window
     {
-        InitializeComponent();
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void AuthorizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Logic for Spotify authorization will be implemented here.
+        }
+
+        private void ToggleOverlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Logic for toggling the lyrics overlay will be implemented here.
+        }
     }
 }
