@@ -1,0 +1,12 @@
+{
+  "name": "aura-lyrics-redirect",
+  "version": "1.0.0",
+  "description": "Redirect server for Aura Lyrics Spotify OAuth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
