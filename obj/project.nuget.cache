@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Eqc1b163UmQ=",
+  "dgSpecHash": "Rjh+HMMIDOE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kasia\\OneDrive\\Dokumenty\\GitHub\\al\\AuraLyrics.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kasia\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Kasia\\.nuget\\packages\\spotifyapi.web\\7.2.1\\spotifyapi.web.7.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
